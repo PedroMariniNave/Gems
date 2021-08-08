@@ -1,0 +1,18 @@
+Inventory:
+  title: 'Exemplo'
+  size: 54
+  items:
+    1:
+      slot: 10
+      price: 5000
+      select-amount: true
+      display:
+        type: EMERALD
+        name: '&2Esmeralda'
+        lore:
+          - '&7Preço: &5{price}'
+      shop-item:
+        type: EMERALD
+        name: '&2Esmeralda'
+        lore:
+          - '&7Wooow esmeralda!'

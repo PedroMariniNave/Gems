@@ -1,0 +1,90 @@
+﻿MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  tax-per-transaction: 10
+  gems-top-update: 600
+  commands:
+    gems:
+      cmd: gems
+      aliases: [gemas, gema]
+
+Item:
+  type: PLAYER_HEAD
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJkZDRjMmE0NjA3MDQzZWQ2YTg4NGVhMTU1NmIxNDkzYTA3NGE4ZTZlNmFjNjEwZDIyYjkzZTU4OGUxZjc4OSJ9fX0=
+  name: '&5Gemas &7[&fx{amount}&7]'
+  lore:
+    - '&7Ative esse item para ganhar'
+    - '&7gemas e gastar no &f/golem&7!'
+
+Messages:
+  never-seen: '&6&lVoltz&f&lMC &8&l➜ &cEsse jogador nunca entrou no servidor!'
+  offline-player: '&6&lVoltz&f&lMC &8&l➜ &cEsse jogador está offline!'
+  invalid-amount: '&6&lVoltz&f&lMC &8&l➜ &cValor inválido!'
+  pay-min: '&6&lVoltz&f&lMC &8&l➜ &cA quantia precisa ser acima de {tax}!'
+  insufficient-gems: '&6&lVoltz&f&lMC &8&l➜ &cVocê não possui gemas suficientes!'
+  send-to-yourself: '&6&lVoltz&f&lMC &8&l➜ &cVocê não pode enviar gemas para si mesmo!'
+  need-space: '&6&lVoltz&f&lMC &8&l➜ &cVocê não possui espaço suficiente no seu inventário! ({has}/{need})'
+  choose-amount:
+    - ''
+    - '&6&lVoltz&f&lMC &8&l➜ &7Digite no chat quantos itens você deseja comprar!'
+    - ''
+    - ' &8▶ &7Item: &f{item}'
+    - ' &8▶ &7Preço: &5{price}'
+    - ''
+  successful-purchased:
+    - ''
+    - '&6&lVoltz&f&lMC &8&l➜ &7Compra efetuada com sucesso!'
+    - ''
+    - ' &8▶ &7Item adquirido: &f{item}'
+    - ' &8▶ &7Quantia: &fx{amount}'
+    - ' &8▶ &7Preço: &f{price}'
+    - ''
+  gems-sent:
+    - ''
+    - '&6&lVoltz&f&lMC &8&l➜ &7Transação efetuada com sucesso! Confira abaixo as informações:'
+    - ''
+    - ' &8▶ &7Moeda: &5Gemas'
+    - ' &8▶ &7Enviado para: &f{target}'
+    - ' &8▶ &7Saldo enviado: &f{amount}'
+    - ' &8▶ &7Saldo recebido: &f{received} &7(&f-10%&7)'
+    - ' &8▶ &7ID: &f#{id}'
+    - ''
+
+  gems-received:
+    - ''
+    - '&6&lVoltz&f&lMC &8&l➜ &7Uma nova transação foi efetuada! Confira abaixo as informações:'
+    - ''
+    - ' &8▶ &7Moeda: &5Gemas'
+    - ' &8▶ &7Feita por: &f{actor}'
+    - ' &8▶ &7Saldo recebido: &f{received}'
+    - ' &8▶ &7ID: &f#{id}'
+    - ''
+
+  confirm:
+    - ''
+    - '&6&lVoltz&f&lMC &8&l➜ &7Digite o comando novamente para confirmar a transação!'
+    - ''
+    - ' &8▶ &7Moeda: &5Gemas'
+    - ' &8▶ &7Enviando para: &f{target}'
+    - ' &8▶ &7Saldo a ser enviado: &f{amount}'
+    - ' &8▶ &7Saldo a ser recebido: &f{received} &7(&f-10%&7)'
+    - ''
+
+NumberFormatter:
+  - "k"
+  - "M"
+  - "B"
+  - "T"
+  - "Q"
+  - "QQ"
+  - "S"
+  - "SS"
+  - "O"
+  - "N"
+  - "D"

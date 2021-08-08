@@ -1,0 +1,48 @@
+last-id: 0
+
+Inventory:
+  title: "Gemas - Histórico"
+  size: 45
+  slots: 11,12,13,14,15,20,21,22,23,24,29,30,31,32,33 # 15
+  next-page-slot: 26 # só vai aparecer se tiver próxima página
+  previous-page-slot: 18 # só vai aparecer se tiver página anterior
+  items:
+    add:
+      type: PLAYER_HEAD
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTllNGJkY2YxNzJkNWRjNzdjMmJkNGUzN2FkOTg1Mzk5YTlmMmNkZWJmNzI0NjM5MjllYTRiNjY2ZWY2ZjgwIn19fQ==
+      name: "&aTransação"
+      lore:
+        - '&7Abaixo estão as informações'
+        - '&7dessa transação:'
+        - ''
+        - ' &8▶ &7Efetuada em: &f{date}'
+        - ' &8▶ &7Enviada por: &f{actor}'
+        - ' &8▶ &7Saldo recebido: &a+{amount}'
+        - ' &8▶ &7ID: &f#{id}'
+    remove:
+      type: PLAYER_HEAD
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+      name: "&cTransação"
+      lore:
+        - '&7Abaixo estão as informações'
+        - '&7dessa transação:'
+        - ''
+        - ' &8▶ &7Efetuada em: &f{date}'
+        - ' &8▶ &7Enviada para: &f{target}'
+        - ' &8▶ &7Saldo enviado: &c-{amount}'
+        - ' &8▶ &7ID: &f#{id}'
+
+Empty:
+  type: COBWEB
+  name: "&cVazio"
+  slot: 22
+
+Next-Page:
+  type: ARROW
+  name: '&aPróxima Página'
+  slot: 26
+
+Previous-Page:
+  type: ARROW
+  name: '&cPágina Anterior'
+  slot: 18

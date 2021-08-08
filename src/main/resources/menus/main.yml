@@ -1,0 +1,46 @@
+Inventory:
+  title: "Gemas"
+  size: 27
+  items:
+    1:
+      type: PLAYER_HEAD
+      owner: "{player}"
+      name: "&5Suas informações"
+      lore:
+        - '&7Abaixo estão suas informações:'
+        - ''
+        - ' &8▶ &7Saldo disponível: &5{gems}'
+      slot: 11
+    2:
+      action: 'OPEN:golem'
+      type: PLAYER_HEAD
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAwNmIxYWZiZDdlZmM4ODUwZGFjOTY5NDU5YjA4NmFmYTI1MDNiYmYwMzE3NjRiODhiOTgzMTc0MGMwNzg5MyJ9fX0=
+      name: '&5Golem'
+      lore:
+        - '&7Nesse menu você poderá ver'
+        - '&7os itens oferecidos pelo golem'
+        - '&7ou comprar usando seu saldo!'
+        - ''
+        - '&7Clique para acessar!'
+      slot: 13
+    3:
+      action: TRANSACTIONS
+      type: PAPER
+      name: "&5Histórico"
+      lore:
+        - '&7Nesse menu você poderá ver'
+        - '&7as suas últimas transações'
+        - '&7feitas com jogadores!'
+        - ''
+        - '&7Clique para acessar!'
+      slot: 14
+    4:
+      action: TOP
+      type: ARMOR_STAND
+      name: "&5Jogadores mais ricos"
+      lore:
+        - '&7Nesse menu você poderá ver'
+        - '&7os jogadores mais ricos!'
+        - ''
+        - '&7Clique para acessar!'
+      slot: 15

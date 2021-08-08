@@ -1,0 +1,14 @@
+Inventory:
+  title: "Gemas"
+  size: 27
+  items:
+    1:
+      type: PLAYER_HEAD
+      owner: "{player}"
+      name: "&5Informações de {player}"
+      lore:
+        - '&7Abaixo estão as informações'
+        - '&7do jogador:'
+        - ''
+        - ' &8▶ &7Saldo disponível: &5{gems}'
+      slot: 13

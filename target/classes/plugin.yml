@@ -1,0 +1,6 @@
+name: Gems
+description: Only a simple gems plugin.
+version: 1.0
+author: zPedroo_
+main: com.zpedroo.gems.Gems
+api-version: 1.16
